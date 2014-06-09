@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
+<html>
+<head>
+<!-- メール送信Form -->
+<meta http-equiv='Content-Type' content='text/html; charset=EUC_JP'>
+<meta http-equiv='Content-Style-Type' content='text/css'>
+<meta http-equiv='Content-Script-Type' content='text/javascript'>
+<title>だいぶつにメールを送る</title>
+</head>
+<body bgcolor='#ffffff'>
+<CENTER><div align='center'><hr width="500">だいぶつにメールを送る<hr width="500"></div><br>
+<form method='post' action='https://cgi.eonet.ne.jp/cgi-bin/mail.cgi?user=daibutsu'><br>
+<input type='hidden' name='mail_to' value='nakamuramasakatsu@yahoo.co.jp'>
+<input type='hidden' name='from' value=''>
+<input type='hidden' name='defsubject' value=''>
+<input type='hidden' name='url' value='http://www.eonet.ne.jp/~daibutsu/mail.html'>
+<TABLE>
+<TR><TD>お名前：（半角カナでの記入はできません）</TD></TR>
+<TR><TD><input type="text" name="name" size="50" maxlength="50"></TD></TR>
+<TR><TD>あなたのE-mailアドレス：（半角カナでの記入はできません）</TD></TR>
+<TR><TD><input type="text" name="email" size="50" maxlength="50"></TD></TR>
+<TR><TD>Subject：（半角カナでの記入はできません）</TD></TR>
+<TR><TD><input type="text" name="subject" size="50" maxlength="50"></TD></TR>
+<TR><TD>メッセージ：（半角カナでの記入はできません）</TD></TR>
+<TR><TD><textarea rows="5" cols="60" name="message"></textarea></TD></TR>
+<TD align="center"><INPUT TYPE="submit" VALUE="送　信">　　<INPUT TYPE="reset" VALUE="リセット"></TD></TR>
+<TR><TD><input type="button" onClick="history.back();" value=" 戻る "></TD></TR>
+</TABLE><hr width="500"><CENTER></FORM>
+</body></html>

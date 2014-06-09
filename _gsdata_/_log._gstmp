@@ -1,0 +1,39 @@
+FTP: Use MLST/MLSD command to list files
+----- 2012/08/29 5:34:09: ジョブ 'FC2ホームページ': User による解析開始 (PC 'SALAPOM-PC') (グッドシンク 8.9.9.3 x86 on Vista) -----
+FC2ホームページ: C:\Users\さら\Documents\My HomePage <-> ftp://daibutsuda.web.fc2.com [ansi], SavePrevVers, CleanupPrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, Reconnect=3, ChangeLimit=10
+隠し属性を除外, システム属性を除外, 除外 licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|/System Volume Information|Thumbs.db|.DS_Store|name *._gstmp 
+左側: 状態ファイル読込中 C:\Users\さら\Documents\My HomePage\_gsdata_\_file_state_v4._gs
+左側: ファイル: 58 (除外 0) フォルダ: 5 (除外 1) C: NTFS, 利用可能: 99.3 GB, 合計: 298 GB
+右側: 状態ファイル読込中 ftp://daibutsuda.web.fc2.com/_gsdata_/_file_state_v4._gs
+右側: ファイル: 58 (除外 0) フォルダ: 6 (除外 1) FTP: web.fc2.com FTP Server
+/mailURLopen..xls: 競合: 新しいファイルは異なります
+/mailURLopen_v2.5.xls: 競合: 新しいファイルは異なります
+/mailURLopen_v2.6.xls: 競合: 新しいファイルは異なります
+同期の方向を選択して競合を解決します。
+変更: 4  競合: 3  時刻コピー: 0  状態コピー: 0/3  エラー: 0
+Right to Left: Copy File: 1 
+All Nodes (Live+Dead): 152
+----- 2012/08/29 5:34:18: 解析完了 時間 00:00:11  速度: 5 ファイル/秒 -----
+
+=== User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mailURLopen..xls
+=== User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mailURLopen_v2.5.xls
+=== User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mailURLopen_v2.6.xls
+FTP: Use MLST/MLSD command to list files
+===== 2012/08/29 5:34:33: ジョブ 'FC2ホームページ': User によるシンクロ開始 (PC 'SALAPOM-PC') =====
+FC2ホームページ: C:\Users\さら\Documents\My HomePage <-> ftp://daibutsuda.web.fc2.com [ansi], SavePrevVers, CleanupPrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, Reconnect=3, ChangeLimit=10
+Locking folder C:\Users\さら\Documents\My HomePage for write
+Locking folder ftp://daibutsuda.web.fc2.com for write
+フォルダ作成 'C:\Users\さら\Documents\My HomePage\MM_CASETEST4291'
+上書コピー 'C:\Users\さら\Documents\My HomePage\mailURLopen..xls' -> 'ftp://daibutsuda.web.fc2.com/mailURLopen..xls' (User Action)
+上書コピー 'C:\Users\さら\Documents\My HomePage\mailURLopen_v2.5.xls' -> 'ftp://daibutsuda.web.fc2.com/mailURLopen_v2.5.xls' (User Action)
+上書コピー 'C:\Users\さら\Documents\My HomePage\mailURLopen_v2.6.xls' -> 'ftp://daibutsuda.web.fc2.com/mailURLopen_v2.6.xls' (User Action)
+Sync State Merge: /masters_wedding_party
+Sync State Merge: /masters_wedding_party/images
+Sync State Merge: /nou
+状態ファイル保存 C:\Users\さら\Documents\My HomePage\_gsdata_\_file_state_v4._gs
+状態ファイル保存 ftp://daibutsuda.web.fc2.com/_gsdata_/_file_state_v4._gs
+シンクロ完了項目: 7  エラー: 0
+===== 2012/08/29 5:34:59: シンクロ完了 時間: 00:00:30  速度: 12.0 KB/s =====
+Unlocking folder (set insync file) C:\Users\さら\Documents\My HomePage\_gsdata_\_insync_v4.gsl
+Unlocking folder (set insync file) ftp://daibutsuda.web.fc2.com/_gsdata_/_insync_v4.gsl
+
