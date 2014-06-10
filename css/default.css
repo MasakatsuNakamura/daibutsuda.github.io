@@ -88,16 +88,16 @@ p {
 	text-align:center;
 }
 
-#side ul {
+ul {
 	text-align:left;
 	list-style:none;
 	line-height:25px;
 }
 
-#side ul a {
+ul a {
 	display:block;
 }
 
-#side ul a:hover {
+ul a:hover {
 	background:white;
 }
