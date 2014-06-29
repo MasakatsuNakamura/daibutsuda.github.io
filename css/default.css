@@ -94,10 +94,6 @@ ul {
 	line-height:25px;
 }
 
-ul a {
-	display:block;
-}
-
 ul a:hover {
 	background:white;
 }
