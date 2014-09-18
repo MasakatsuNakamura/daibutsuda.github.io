@@ -91,11 +91,6 @@ p {
 ul {
 	text-align:left;
 	list-style:none;
-	line-height:25px;
-}
-
-ul a {
-	display:block;
 }
 
 ul a:hover {
